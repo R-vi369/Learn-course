@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <!-- bootstraps link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- aos link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- icons link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  
+    <link rel="shortcut icon" type="image/jpg" href="./images/favicons.jpg"/>
+
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-white fs-5 px-5  border-bottom fixed-top ">
+            <div class=" navbar-position container-fluid">
+                <a class="navbar-brand" href="#">Pro-<span class="text-success">gramming</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/carousel0.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption e d-md-block">
+                        <i class="bi bi-book fs-2"></i>
+                        <h5>hello there!</h5>
+                        <p>this is just a practice project</p>
+                       
+                    </div>
+                </div>
+                <div class="carousel-item">
+
+                    <img src="./images/casousel2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption  d-md-block">
+                        
+                        <i class="bi bi-database-fill-check fs-2"></i>
+                        <h5>How are you all doing?</h5>
+                        <p>i will soon add some more Project</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/corousel3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <i class="bi bi-display fs-2"></i>
+                        <h5>Hope you doing great</h5>
+                        <p>with the help of React.js</p>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </header>
+
+    <section class="About my-4 text-center">
+        <div class="container  ">
+
+            <div class="text-center my-5 ">
+                <h1>About</h1>
+                <hr class="w-25 m-auto ">
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-12 col-md-6 col-lg-6 col-12 ">
+
+                    <h1>what do you want to know</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, voluptates! Cumque sequi saepe
+                        eum ducimus doloremque? Voluptate, vel neque velit debitis doloremque unde!
+
+                    </p>
+                    <button type="button" class="btn btn-dark mb-4">learn more</button>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    patience
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Patience is the ability to endure difficult circumstances. Patience may involve perseverance in the face of delay; tolerance of provocation without responding in disrespect/anger; or forbearance when
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                 Consistency
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    In classical deductive logic, a consistent theory is one that does not lead to a logical contradiction. The lack of contradiction can be defined in either semantic or syntactic terms
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                   Dedication
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    A dedication or book dedication is the expression of friendly connection or thanks by the author towards another person. The dedication has its own place on the dedication page and is part of the front matter.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-center embed-responsive embed-responsive-16by9">
+
+                   <video src="./video/video.mp4" width="540" height="300" controls loop autoplay></video>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="course py-4 bg-white text-center ">
+        <div class="container">
+            <div class="my-5">
+                <h1>Course</h1>
+                <hr class="w-25 m-auto ">
+            </div>
+
+            <div class="row py-2 " >
+                <div class="col-sm-6 shadow p-3 mb-5 bg-body rounded"  data-aos="zoom-in">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="bi bi-webcam bg-success text-white"></i>
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text">we have designed super interactive web development for you.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 shadow p-3 mb-5 bg-body rounded"  data-aos="zoom-in">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="bi bi-filetype-java bg-success text-white"></i>
+                            <h5 class="card-title">Java and Dsa</h5>
+                            <p class="card-text">This course is for everyone who wants to get into product based
+                                companies.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row py-2">
+                <div class="col-sm-6 shadow p-3 mb-5 bg-body rounded"  data-aos="zoom-in">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="bi bi-filetype-py bg-success text-white"></i>
+                            <h5 class="card-title">Python</h5>
+                            <p class="card-text">Python is fun, .</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 shadow p-3 mb-5 bg-body rounded"  data-aos="zoom-in">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="bi bi-braces bg-success text-white"></i>
+                            <h5 class="card-title">C++</h5>
+                            <p class="card-text">C++ is one of the most demanding language </p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row py-2">
+                <div class="col-sm-6 shadow p-3 mb-5 bg-body rounded" data-aos="zoom-in">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="bi bi-database bg-success text-white"></i>
+                            <h5 class="card-title">React.js</h5>
+                            <p class="card-text">React.js is a javascript library used for UI design </p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 shadow p-3 mb-5 bg-body rounded" data-aos="zoom-in">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="bi bi-diagram-3-fill bg-success text-white"></i>
+                            <h5 class="card-title">UI</h5>
+                            <p class="card-text">User Interface is used for designing of a site</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class=" container testimonials py-4 text-center">
+
+        <div class="container">
+            <div class=" my-6">
+                <h1>Testimonials</h1>
+                <hr class="w-25 m-auto ">
+            </div>
+        </div>
+
+        <div class="row m-auto text-center">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12  " data-aos="flip-left">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="./images/testimonial1.jpg" alt="" class="img-fluid rounded-circle border border-success">
+                        <h5 class="card-title">Alexdenra</h5>
+                        <p class="card-text">This Course is very Helpful</p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="flip-right">
+
+
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="./images/testimonial2.jpg" alt="" class="img-fluid rounded-circle border border-success">
+                        <h5 class="card-title">Max jupate</h5>
+                        <p class="card-text">i got selected in google wih Dsa course </p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="flip-left">
+
+
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="./images/tesimonial3.jpg" alt="" class="img-fluid rounded-circle border border-success">
+                        <h5 class="card-title">yamiko</h5>
+                        <p class="card-text"> 6 month ago, i have 0 ideo about coding . Now i'm in apple </p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="contact text-center">
+        <div class="container">
+            <div class=" my-6">
+                <h1>Contact</h1>
+                <hr class="w-25 m-auto ">
+            </div>
+
+            <div class="row my-5 ">
+
+                <div class=" form-css col-sm-12 col-md-6 col-lg-6 col-12" data-aos="fade-right">
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <button type="button " class="btn btn-dark">Sign Up</button>
+                    <button type="button" class="btn btn-dark">Sign In</button>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end " data-aos="fade-left">
+                    <img src="./images/lastimg.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+<div class="container-fluid bg-success text-white text-center py-4 fs-4">Created by Ravi</div>
+
+
+
+
+
+
+
+
+
+    <!-- javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+<!-- aos link -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
